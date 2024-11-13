@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Metales y aleaciones no ferrosos',
+    descripcionCurso:
+      'El componente formativo aborda los metales y aleaciones no ferrosas, su clasificación y procesos de obtención. Describe metales puros como el cobre y las aleaciones ultraligeras, ligeras y pesadas, resaltando sus aplicaciones en la industria aeronáutica, electrónica y construcción. También menciona la importancia del reciclaje y la minería urbana para mitigar el impacto ambiental y maximizar el aprovechamiento de estos recursos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,28 +36,30 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Introducción a metales y aleaciones no ferrosos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Metales puros',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo: 'Aleaciones ultraligeras',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Aleaciones ligeras',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Aleaciones pesadas',
+            hash: 't_1_4',
+          },
         ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [

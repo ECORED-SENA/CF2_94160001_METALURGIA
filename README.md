@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.0.5**
+# **Metales y aleaciones no ferrosos**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF2_94160001_METALURGIA/#/](https://ecored-sena.github.io/CF2_94160001_METALURGIA/#/)
 
 #
 

@@ -2,19 +2,53 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 20%
+    right: 20%
   &-2
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 70%
+  &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
+    top: 60%
     right: 30%
-
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
 
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
+
+.banner-principal__row .banner-principal__img
+  width: 470px
+  @media screen and ( max-width: $bp-max-lg )
+    width: 400px
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.svg") !important
+
+.bg
+  &-c1
+    background-image: url(../assets/curso/intro/img1.png)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: contain
+    background-position: bottom
+    margin-bottom: -47px
+    @media screen and ( max-width: $bp-max-sm )
+      margin-bottom: -20px
+  &-c2
+    background-color: #F1F3F6
+  &-c3
+    border: 3px solid #F6A230
+    border-radius: 15px
+  &-c4
+    background-color: #FEC8B0
