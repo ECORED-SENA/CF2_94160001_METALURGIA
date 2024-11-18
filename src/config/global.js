@@ -109,31 +109,103 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Introducción a metales y aleaciones no ferrosos',
+      referencia:
+        'El Industriense. (2021). Aleaciones | ¿Qué son? ¿En qué objetos se encuentran?.  [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=r2d2xiKICBU&ab_channel=ElIndustriense',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Metales puros',
+      referencia:
+        'Fabricando. (2022). COMO se HACE el ORO en la TIERRA | Como se EXTRAE el ORO de las MINAS. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=CatEXzcy3Uk&ab_channel=Fabricando',
+    },
+    {
+      tema: 'Aleaciones ultraligeras',
+      referencia:
+        'INITUBE. (2024). Aleaciones de aluminio: ¿cuáles son las más usadas?. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=7g2lGRzMQ-M&ab_channel=INITUBE',
+    },
+    {
+      tema: 'Aleaciones ligeras',
+      referencia:
+        'Ehm. (2018). Aleaciones Ligeras - Aluminio. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=IUa4eSAXWjM&ab_channel=Ehm ',
+    },
+    {
+      tema: 'Aleaciones pesadas',
+      referencia:
+        'Nordberg G. (2024). METALES: PROPIEDADES QUÍMICAS Y TOXICIDAD.',
+      tipo: 'Documento página 1-20',
+      link:
+        'https://www.insst.es/documents/94886/162520/Cap%C3%ADtulo+63.+Metales+propiedades+qu%C3%ADmicas+y+toxicidad',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Aleaciones ultraligeras',
+      significado:
+        'combinaciones de metales con baja densidad, como el magnesio, usadas para aplicaciones ligeras.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Biometalurgia',
+      significado:
+        'extracción de metales utilizando microorganismos para procesar minerales.',
+    },
+    {
+      termino: 'Densidad',
+      significado:
+        'magnitud que relaciona la masa de un material con su volumen.',
+    },
+    {
+      termino: 'Electrometalurgia',
+      significado:
+        'proceso que utiliza corriente eléctrica para extraer y refinar metales.',
+    },
+    {
+      termino: 'Ganga',
+      significado:
+        'material no valioso que se separa de la mena durante el proceso de beneficio de minerales.',
+    },
+    {
+      termino: 'Hidrometalurgia',
+      significado:
+        'proceso de extracción de metales mediante la disolución en soluciones acuosas.',
+    },
+    {
+      termino: 'Inclusiones',
+      significado: 'compuestos no metálicos presentes en aleaciones sólidas.',
+    },
+    {
+      termino: 'Mena',
+      significado:
+        'mineral que contiene suficiente cantidad de un metal para ser extraído de manera rentable.',
+    },
+    {
+      termino: 'Minerales no ferrosos',
+      significado:
+        'metales y aleaciones que contienen menos de un 5% de hierro en su composición.',
+    },
+    {
+      termino: 'Pirometalurgia',
+      significado:
+        'obtención de metales a través de procesos que involucran altas temperaturas.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'AAskeland, D. (2004). <i>Ciencia e Ingeniería de los Materiales</i>. Thomson.',
+      link: '',
+    },
+    {
+      referencia:
+        'Servicio Geológico Mexicano. (2014). <i>Beneficio y transformación de minerales</i>.',
       link: '',
     },
   ],
@@ -157,8 +229,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Hivo Alfonso Patarroyo Pulido',
+          cargo: 'Experto temático',
+          centro: 'Centro de Materiales y Ensayos - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -167,35 +244,35 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Blanca Flor Tinoco Torres',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Jairo Urueta Alvarez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Nombre',
+        //  cargo: 'Animador y productor audiovisual',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Luis Gabriel Urueta Alvarez',
+        //  cargo: 'Validador y vinculador de recursos educativos digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
+        //{
+        //  nombre: 'Jaime Hernán Tejada Llano',
+        //  cargo: 'Validador y vinculador de recursos educativos digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',

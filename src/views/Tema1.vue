@@ -413,7 +413,184 @@
               img(src='@/assets/curso/tema1/img4.svg', alt='', style='width: 45px')
           .col
             h3.mb-0 El aluminio
-    p A continuación, se presenta una descripción de los diferentes usos y aplicaciones del aluminio y sus compuestos en diversos sectores industriales, destacando sus propiedades y beneficios en cada uno de ellos:
+    p(data-aos="fade-right") A continuación, se presenta una descripción de los diferentes usos y aplicaciones del aluminio y sus compuestos en diversos sectores industriales, destacando sus propiedades y beneficios en cada uno de ellos:
+    .row
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/tema1/img32.png', alt='', style='width: 480px').m-auto
+      .col-lg-7(data-aos="fade-left")
+        .p-4.bg-c16
+          .row.align-items-center
+            .col-md-auto
+              figure
+                img(src='@/assets/curso/tema1/img13.svg', alt='', style='width: 240px').m-auto
+            .col-md
+              p.text-white #[b Pódcast]
+              p.text-white Lo invitamos a escuchar el siguiente Pódcast:
+              TarjetaAudio.color-primario(
+                texto="Aluminio"
+                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                @audio-hover="mostrarIndicadorTarjetaAudio = false"
+              )
+                .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+    Separador
+    #t_1_4
+    .titulo-segundo.color-acento-botones
+      h2 1.4 Aleaciones pesadas
+    .row.justify-content-center.mb-5
+      .col-md-8.col-lg-auto.px-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/tema1/img33.png', alt='', style='width: 430px').m-auto
+      .col-md-8.col-lg.bg-c2(data-aos="fade-left")
+        .row.align-items-center.h-100
+          .col-12
+            .p-4.h-100
+              p.mb-0 Las aleaciones pesadas son combinaciones de metales con una densidad igual o superior a 5 kg/dm³. Ejemplos comunes incluyen aleaciones de cobre, plomo, níquel y estaño. Estas aleaciones se utilizan en aplicaciones donde se requiere alta resistencia y durabilidad, como en la fabricación de herramientas, maquinaria pesada y componentes eléctricos. Su densidad y resistencia les permiten soportar altas cargas y condiciones extremas, lo que las hace adecuadas para entornos industriales exigentes.
+    .row.mb-4
+      .col-auto.bg-c9(data-aos="fade-left")
+        .row.align-items-center
+          .col-auto.px-0
+            figure
+              img(src='@/assets/curso/tema1/img4.svg', alt='', style='width: 45px')
+          .col
+            h3.mb-0 Estaño
+    p.mb-4(data-aos="fade-right") El proceso de obtención del estaño comienza con su trituración y lavado para eliminar impurezas, seguido de una tostación para oxidar los sulfuros de hierro y cobre. Luego, se realiza un segundo lavado para eliminar los restos de sulfato de cobre producidos durante la tostación, y se reduce con carbón a 1200 ºC en un horno eléctrico o de reverbero, siguiendo la reacción:
+    .row.justify-content-center.mb-4
+      .col-lg-8(data-aos="fade-down")
+        .row.justify-content-center
+          .col-md-7.col-lg.bg-c17
+            .p-4.h-100
+              .row.align-items-center.h-100
+                .col-12
+                  p.fs-4.text-center.mb-0 #[b SnO₂ + 2C = Sn + 2CO.]
+          .col-md-7.col-lg-auto.ps-lg-0.px-0
+            figure
+              img(src='@/assets/curso/tema1/img34.png', alt='', style='width: 390px').m-auto
+    p.mb-4(data-aos="fade-right") El estaño se refina por electrólisis o mediante una segunda fusión a temperatura moderada para separar las impurezas que no se funden. El estaño se caracteriza por su versatilidad y se utiliza en diversos procesos industriales, destacando su papel en los siguientes ámbitos:
+    .row.mb-4
+      .col-lg-8(data-aos="fade-right")
+        TabsA.color-acento-botones.mb-5
+          .tarjeta.color-acento-botones.p-4(titulo="Recubrimiento<br>protector")
+            p #[b Recubrimiento protector]
+            p.mb-0 Se utiliza para cubrir metales como cobre e hierro, siendo fundamental en la fabricación de latas de conserva, aunque su uso en alimentos ácidos es limitado por su susceptibilidad a la corrosión.
+          .tarjeta.color-acento-botones.p-4(titulo="Industria del vidrio")
+            p #[b Industria del vidrio]
+            p.mb-0 Empleado para disminuir la fragilidad del vidrio.
+          .tarjeta.color-acento-botones.p-4(titulo="Estañado de hilos<br>conductores")
+            p #[b Estañado de hilos conductores]
+            p.mb-0 Se emplea para mejorar la conductividad en hilos metálicos.
+          .tarjeta.color-acento-botones.p-4(titulo="Fabricación de<br>semiconductores")
+            p #[b Fabricación de semiconductores]
+            p.mb-0 Aleado con niobio, el estaño se usa en la industria de semiconductores.
+      .col-lg-4(data-aos="fade-left")
+        figure
+          img(src='@/assets/curso/tema1/img35.png', alt='', style='width: 350px').m-auto
+    p.mb-4(data-aos="fade-up") Las aleaciones de estaño son:
+    .row.justify-content-center.mb-4(data-aos="fade-left")
+      .col-md-7.col-lg-4.mb-4.mb-lg-0
+        .p-4.bg-c18
+          figure.mb-3
+            img(src='@/assets/curso/tema1/img14.svg', alt='', style='width: 170px').m-auto
+          .row.justify-content-center.mb-3
+            .col-auto
+              .p-2.bg-text
+                p.mb-0 #[b Bronce]
+          p.text-center.mb-0 Aleación de estaño y cobre, conocida por su durabilidad.
+      .col-md-7.col-lg-4.mb-4.mb-lg-0
+        .p-4.bg-c18
+          figure.mb-3
+            img(src='@/assets/curso/tema1/img15.svg', alt='', style='width: 170px').m-auto
+          .row.justify-content-center.mb-3
+            .col-auto
+              .p-2.bg-text
+                p.mb-0 #[b Metal de tipografía]
+          p.text-center.mb-0 Compuesto por estaño, plomo y antimonio.
+      .col-md-7.col-lg-4
+        .p-4.bg-c18
+          figure.mb-3
+            img(src='@/assets/curso/tema1/img16.svg', alt='', style='width: 170px').m-auto
+          .row.justify-content-center.mb-3
+            .col-auto
+              .p-2.bg-text
+                p.mb-0 #[b Aleaciones con titanio]
+          p.text-center.mb-0 Utilizadas en la industria aeroespacial por su resistencia.
+    p.mb-5(data-aos="fade-right") Además, el estaño también es un ingrediente en ciertos insecticidas, lo que demuestra su amplia gama de aplicaciones industriales.
+    .row.mb-4
+      .col-auto.bg-c9(data-aos="fade-left")
+        .row.align-items-center
+          .col-auto.px-0
+            figure
+              img(src='@/assets/curso/tema1/img4.svg', alt='', style='width: 45px')
+          .col
+            h3.mb-0 Cobre
+    p.mb-4(data-aos="fade-right") El proceso de obtención del cobre varía según la composición del mineral. Los minerales con cobre nativo se trituran, lavan y funden para obtener barras. Si la mena es de óxido o carbonato de cobre, se tritura y trata con ácido sulfúrico diluido para producir sulfato de cobre, que se extrae por electrólisis o por desplazamiento utilizando hierro:
+    .row.justify-content-center.mb-4
+      .col-lg-10(data-aos="fade-up")
+        .row
+          .col-lg-auto.bg-c17
+            .p-4.h-100
+              .row.align-items-center.h-100
+                .col-12
+                  p.text-center.mb-0.fs-4 #[b CuSO₄ + Fe = Cu + FeSO₄]
+          .col-lg.bg-c5
+            .p-4
+              p.mb-0 La reducción de óxidos y carbonatos de cobre se realiza con carbón cuando la mena tiene una alta concentración de cobre. En el caso de los sulfuros, que contienen entre un 1 % y un 12 % de cobre, estos se muelen y concentran mediante flotación. Luego, los concentrados se reducen en un horno, obteniendo cobre metálico crudo conocido como “blíster”, con aproximadamente un 98 % de pureza. Este cobre se purifica por electrólisis, alcanzando una pureza superior al 99,9 %.
+    p.mb-0(data-aos="fade-right") Los usos del cobre son:
+    .row.bg-c19
+      .col-12
+        .p-5
+          .row.justify-content-center.mb-4
+            .col-lg-11
+              .p-4.bg-c20
+                .row(data-aos="fade-down")
+                  .col-lg-auto.mb-4.mb-lg-0
+                    figure
+                      img(src='@/assets/curso/tema1/img37.png', alt='', style='width: 400px').m-auto
+                  .col-lg
+                    .row.mb-3
+                      .col-12
+                        .p-3.bg-c15
+                          p.mb-0 #[b Fabricación de cables:] Gracias a su alta ductilidad, el cobre se utiliza para fabricar cables de diversos diámetros, desde 0,025 mm en adelante.
+                    .row
+                      .col-12
+                        .p-3.bg-c15
+                          p #[b Resistencia a la tensión:] Los cables de cobre tienen una resistencia a la tensión de aproximadamente 4200 kg/cm², lo que los hace ideales para:
+                          ul.lista-ul.mb-0
+                            li.d-flex
+                              i.fas.fa-check-circle
+                              |
+                              p.mb-0 Líneas eléctricas de alta tensión y de telegrafía.
+                            li.d-flex
+                              i.fas.fa-check-circle
+                              |
+                              p.mb-0 Instalaciones eléctricas de interiores, cordones de lámparas y maquinaria eléctrica como generadores y motores.
+                            li.d-flex
+                              i.fas.fa-check-circle
+                              |
+                              p.mb-0 Dispositivos de señalización y equipos de comunicación.
+          p.mb-4(data-aos="fade-right") Otros usos del cobre son:
+          .row.justify-content-center.mb-4(data-aos="fade-left")
+            .col-md-7.col-lg-3.mb-4.mb-lg-0
+              .p-4.bg-c18
+                figure.mb-3
+                  img(src='@/assets/curso/tema1/img17.svg', alt='', style='width: 170px').m-auto
+                p.text-center.mb-0 El cobre ha sido empleado históricamente para acuñar monedas y fabricar utensilios de cocina, cubas y objetos decorativos. Durante mucho tiempo, también se utilizó para proteger el fondo de los buques de madera.
+            .col-md-7.col-lg-3.mb-4.mb-lg-0
+              .p-4.bg-c18
+                figure.mb-3
+                  img(src='@/assets/curso/tema1/img18.svg', alt='', style='width: 170px').m-auto
+                p.text-center.mb-0 El cobre puede depositarse electrolíticamente sobre otros metales, siendo usado especialmente en la fabricación de planchas tipográficas para impresión.
+            .col-md-7.col-lg-3.mb-4.mb-lg-0
+              .p-4.bg-c18
+                figure.mb-3
+                  img(src='@/assets/curso/tema1/img19.svg', alt='', style='width: 170px').m-auto
+                p.text-center.mb-0 Ciertas soluciones de cobre permiten disolver la celulosa, lo que facilita su uso en la fabricación de rayón.
+            .col-md-7.col-lg-3
+              .p-4.bg-c18
+                figure.mb-3
+                  img(src='@/assets/curso/tema1/img20.svg', alt='', style='width: 170px').m-auto
+                p.text-center.mb-0 También se utiliza en la producción de pigmentos, insecticidas y fungicidas, aunque estos usos han sido en gran parte sustituidos por productos químicos orgánicos y sintéticos.
+          p.mb-0(data-aos="fade-right") El cobre es un material versátil, empleado tanto en aplicaciones modernas como tradicionales, destacándose por sus propiedades de conductividad y resistencia.
       
 </template>
 

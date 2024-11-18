@@ -35,6 +35,9 @@
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/img1.svg") !important
 
+.banner-interno__titulo__icono i
+  color: $color-acento-contenido !important
+
 .slyder-f__btn i
   color: $color-acento-contenido
 
@@ -53,6 +56,15 @@
   background-color: #FE783D
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   background-color: #FE783D
+
+.tarjeta-audio.color-primario
+  background-color: #FEF0EA
+  border: 4px solid #F6A230
+
+.tabs-a__tab
+  background-color: #FDECD4
+.tarjeta.color-acento-botones
+  background-color: #FEE3D7
 
 .bg
   &-c1
@@ -113,5 +125,36 @@
     border-radius: 15px
   &-c15
     background-color: #FFFFFF
+    height: 100%
+    border-radius: 15px
+  &-c16
+    background-color: #5B6476
+    height: 100%
+    border-radius: 15px
+  &-c17
+    background-color: #CDD2DC
+  &-c18
+    background-color: #E5E8ED
+    height: 100%
+    border-radius: 15px
+    transition: all 0.5s ease-in-out
+    .bg-text
+      background-color: #FBD9AB
+      transition: all 0.5s ease-in-out
+  &-c18:hover
+    background-color: #FBD9AB
+    .bg-text
+      background-color: #E5E8ED
+  &-c19
+    background-image: url(../assets/curso/tema1/img36.png)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: contain
+    background-position: bottom
+    margin-bottom: -47px
+    @media screen and ( max-width: $bp-max-sm )
+      margin-bottom: -20px
+  &-c20
+    background-color: #BFE7F2
     height: 100%
     border-radius: 15px
