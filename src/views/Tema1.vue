@@ -30,7 +30,7 @@
         .row.align-items-center.h-100
           .col-12
             .p-4.h-100
-              p.mb-0 Se consideran puros aquellos metales que se emplean sin ser aleados, con concentraciones iguales o superiores al 99.0%, como el cobre electrolítico.
+              p.mb-0 Se consideran puros aquellos metales que se emplean sin ser aleados, con concentraciones iguales o superiores al 99.0 %, como el cobre electrolítico.
       .col-md-8.col-lg-auto.order-1.order-lg-2.px-0(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img3.png', alt='', style='width: 430px').m-auto
@@ -79,7 +79,7 @@
                 .row.justify-content-center.align-items-center(titulo="Etapa 6")
                   .col-lg-5.mb-4.mb-lg-0
                     p #[b Concentración]
-                    p.mb-0 Separa el mineral o metal útil de la ganga, aprovechando propiedades físicas o química.
+                    p.mb-0 Separa el mineral o metal útil de la ganga, aprovechando propiedades físicas o químicas.
                   .col-lg-5
                     figure
                       img(src='@/assets/curso/tema1/img10.png', alt='', style='width: 500px').m-auto

@@ -189,7 +189,7 @@ export default {
     {
       termino: 'Minerales no ferrosos',
       significado:
-        'metales y aleaciones que contienen menos de un 5% de hierro en su composición.',
+        'metales y aleaciones que contienen menos de un 5 % de hierro en su composición.',
     },
     {
       termino: 'Pirometalurgia',
@@ -234,7 +234,7 @@ export default {
           centro: 'Centro de Materiales y Ensayos - Regional Distrito Capital',
         },
         {
-          nombre: 'Paola Alexandra Moya',
+          nombre: 'Paola Alexandra Moya Peralta',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -268,11 +268,11 @@ export default {
         //  cargo: 'Validador y vinculador de recursos educativos digitales',
         //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
         //},
-        //{
-        //  nombre: 'Jaime Hernán Tejada Llano',
-        //  cargo: 'Validador y vinculador de recursos educativos digitales',
-        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        //},
+        {
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
