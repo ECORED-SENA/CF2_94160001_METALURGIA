@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" viewBox="0 0 85 85">
+  <g id="Grupo_1109910" data-name="Grupo 1109910" transform="translate(-180.357 -1214)">
+    <circle id="Elipse_11522" data-name="Elipse 11522" cx="42.5" cy="42.5" r="42.5" transform="translate(180.357 1214)" fill="#62c5df"/>
+    <g id="Layer_13" data-name="Layer 13" transform="translate(191.357 1225)">
+      <path id="Trazado_901238" data-name="Trazado 901238" d="M50,14,20,37V55L50,25Z" fill="#aeaeaf"/>
+      <path id="Trazado_901239" data-name="Trazado 901239" d="M27,61V55H20V37h7V31H7v6h7V55H7v6Z" fill="#c8c9cd"/>
+      <path id="Trazado_901240" data-name="Trazado 901240" d="M27,55,57,25H50L20,55Z" fill="#9d9da0"/>
+      <path id="Trazado_901241" data-name="Trazado 901241" d="M27,61,57,31V25L27,55Z" fill="#86878c"/>
+      <path id="Trazado_901242" data-name="Trazado 901242" d="M27,31,57,3H37L7,31Z" fill="#66676c"/>
+      <path id="Trazado_901243" data-name="Trazado 901243" d="M27,37V31L57,3V9Z" fill="#86878c"/>
+      <path id="Trazado_901244" data-name="Trazado 901244" d="M7,31v6h7V55H7v6H17V31Z" fill="#d9dadd"/>
+      <path id="Trazado_901245" data-name="Trazado 901245" d="M57.683,9.731A1,1,0,0,0,58,9V3a1,1,0,0,0-1-1H37a1,1,0,0,0-.683.269l-30,28A1,1,0,0,0,6,31v6a1,1,0,0,0,1,1h6V54H7a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1H27a.994.994,0,0,0,.708-.294l30-30A1,1,0,0,0,58,31V25a1,1,0,0,0-1-1H51V15.968ZM28,34.7V31.435L56,5.3V8.565ZM37.4,4H54.463L26.606,30H9.537ZM26,60H8V56h6a1,1,0,0,0,1-1V37a1,1,0,0,0-1-1H8V32H26v4H20a1,1,0,0,0-1,1V55a1,1,0,0,0,1,1h6Zm2-1.414V55.414l28-28v3.172ZM50,26h4.586l-28,28H21V38h6a1,1,0,0,0,.683-.269L49,17.835V25A1,1,0,0,0,50,26Z"/>
+    </g>
+  </g>
+</svg>
