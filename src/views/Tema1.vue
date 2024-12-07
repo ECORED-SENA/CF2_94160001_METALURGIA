@@ -429,7 +429,7 @@
               p.text-white Lo invitamos a escuchar el siguiente Pódcast:
               TarjetaAudio.color-primario(
                 texto="Aluminio"
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/componentes/audios/aluminio.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
