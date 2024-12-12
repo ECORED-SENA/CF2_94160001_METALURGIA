@@ -64,7 +64,7 @@
                       img(src='@/assets/curso/tema1/img7.png', alt='', style='width: 500px').m-auto
                 .row.justify-content-center.align-items-center(titulo="Etapa 4")
                   .col-lg-5.mb-4.mb-lg-0
-                    p #[b Homogenización]
+                    p #[b Homogeneización]
                     p.mb-0 Mezcla los productos de la molienda para compensar variaciones de granulometría y composición química.
                   .col-lg-5
                     figure
@@ -200,15 +200,15 @@
                 th Ejemplo de metal no férrico
             tbody
               tr
-                td.text-center Pesados
+                td.text-center Pesados.
                 td Su densidad es igual o mayor de 5 kg/dm³.
                 td Estaño, cobre, cinc, plomo, cromo, níquel, wolframio y cobalto.
               tr
-                td.text-center Ligeros
+                td.text-center Ligeros.
                 td Su densidad está comprendida entre 2 y 5 kg/dm³.
                 td Aluminio y titanio.
               tr
-                td.text-center Ultraligeros
+                td.text-center Ultraligeros.
                 td Su densidad es menor de 2 kg/dm³.
                 td Magnesio y berilio.
     Separador
@@ -300,7 +300,7 @@
                       td.text-center Citrato de magnesio (Mg₃(C₆H₅O₇)₂•4H₂O)
                       td Utilizado en medicina y en la preparación de bebidas efervescentes.
                     tr
-                      td.text-center Citrato de magnesio (Mg₃(C₆H₅O₇)₂•4H₂O)
+                      td.text-center Hidróxido de magnesio (Mg(OH)₂)
                       td Usado en el refinado del azúcar.
                     tr
                       td.text-center Sulfato de magnesio (MgSO₄•7H₂O) y óxido de magnesio (MgO)
@@ -472,7 +472,7 @@
         TabsA.color-acento-botones.mb-5
           .tarjeta.color-acento-botones.p-4(titulo="Recubrimiento<br>protector")
             p #[b Recubrimiento protector]
-            p.mb-0 Se utiliza para cubrir metales como cobre e hierro, siendo fundamental en la fabricación de latas de conserva, aunque su uso en alimentos ácidos es limitado por su susceptibilidad a la corrosión.
+            p.mb-0 Se utiliza para cubrir metales como cobre y el hierro, siendo fundamental en la fabricación de latas de conserva, aunque su uso en alimentos ácidos es limitado por su susceptibilidad a la corrosión.
           .tarjeta.color-acento-botones.p-4(titulo="Industria del vidrio")
             p #[b Industria del vidrio]
             p.mb-0 Empleado para disminuir la fragilidad del vidrio.

@@ -245,7 +245,7 @@ export default {
       autores: [
         {
           nombre: 'Blanca Flor Tinoco Torres',
-          cargo: 'Diseñador de contenidos',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
@@ -280,17 +280,17 @@ export default {
         //},
         {
           nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano Gómez',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
